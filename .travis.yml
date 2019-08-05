@@ -6,10 +6,8 @@ git:
   depth: false
 install:
   - Rscript install-packages.R
-  
+
 script:
-  - Rscript testthat.R
-  - Rscript datascript.R
   - Rscript archive.R
 
 after_success:
